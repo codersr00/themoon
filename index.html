@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/typedCursor.css">
+    <title>The Moon</title>
+</head>
+
+<body background="img/bgMoonImg.jpg" class="bg-center bg-no-repeat">
+    <section>
+        <div class="flex justify-center mt-96">
+            <span id="element"
+                class="text-white text-xl sm:text-3xl lg:text-5xl italic font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"></span>
+        </div>
+        <div class="flex justify-center mt-5">
+            <a href="why.html"><button
+                    class="text-white text-sm bg-blue-500 border-2 border-blue-900 outline-none rounded-xl font-extrabold px-2 py-3 animate-[wiggle_1s_ease-in-out_infinite]">
+                    Let's Know Why....</button></a>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['The Moon is Beautiful.', 'Isn\'t It?'],
+            typeSpeed: 100,
+            loop: true,
+            backDelay: 1500,
+            backSpeed: 30,
+        });
+    </script>
+</body>
+
+</html>

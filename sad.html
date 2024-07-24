@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/typedCursor.css">
+    <title>No Worries - The Moon</title>
+</head>
+
+<body background="img/bgMoonImg.jpg" class="bg-center bg-no-repeat">
+    <section class="mt-[50%] sm:mt-24">
+        <div class="flex justify-center">
+            <img src="img/sadPickachu.gif" alt="sadPickachu" class="w-[60%] h-[60%]  sm:w-[20%] sm:h-[20%]">
+        </div>
+        <div class="text-center mt-5">
+            <span id="element"
+                class="text-white text-xl sm:text-3xl mt-5 lg:text-5xl italic font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"></span>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['No Worries,,','I WILL STILL LOVE YOU,', 'I WILL WAIT FOR YOU FOREVER....', 'CAUSE, I LOVE YOU!!!!', 'The Moon is Beautiful,', 'Isn\'t It?'],
+            typeSpeed: 100,
+            backDelay: 1500,
+            backSpeed: 30,
+        });
+    </script>
+</body>
+
+</html>

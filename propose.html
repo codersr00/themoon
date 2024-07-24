@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/typedCursor.css">
+    <title>Will You Be Mine?? - The Moon</title>
+</head>
+
+<body background="img/bgMoonImg.jpg" class="bg-center bg-no-repeat">
+    <section class="mb-5 mt-64">
+        <div class="text-center mb-14 sm:mb-2">
+            <span id="element"
+                class="text-white text-xl sm:text-3xl lg:text-5xl italic font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"></span>
+        </div>
+        <div class="flex justify-center mt-14 space-x-10">
+            <a href="happy.html"><button
+                    class="text-white bg-blue-500 border-2 border-blue-900 outline-none rounded-xl font-extrabold px-5 py-2 animate-[wiggle_1s_ease-in-out_infinite]">
+                    Yes</button></a>
+            <a href="sad.html"><button
+                    class="text-white bg-blue-500 border-2 border-blue-900 outline-none rounded-xl font-extrabold px-5 py-2 animate-[wiggle_1s_ease-in-out_infinite]">
+                    No</button></a>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['So Tell Me Now,', 'Isn\'t My Moon Beautiful?', 'Moon Will You be Mine?? &#x1f97a;'],
+            typeSpeed: 100,
+            backDelay: 1500,
+            backSpeed: 30,
+        });
+    </script>
+</body>
+
+</html>
